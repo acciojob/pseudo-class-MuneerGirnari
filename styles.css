@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p::before{
+    content: "Before Element";
+    color: red;
+    font-size: 30px;
+}
+
+p::after{
+    content: "After Element";
+    color: red;
+    font-size: 30px;
+}
